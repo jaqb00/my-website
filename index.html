@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Strona o mnie</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="name">Jakub Wesoły</a>
+
+        <div class="header-menu">
+        <span onclick="menu()" class="menu" id="menu">
+            <img src="menu.png" alt="menu">
+        </span>
+        
+
+        <nav id="home">
+            <span onclick="close_menu()" class="close-menu" id="close_menu">
+                <img src="close-menu.png" alt="close-menu">
+            </span>
+            <a href="#" class="home">Strona główna</a>
+            <a href="#">Doświadczenie</a>
+            <a href="#">Kontakt</a>
+        </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="main-img">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="main-container">
+            <h1>Cześć, jestem <span>Jakub</span></h1>
+            <h3 class="typing-text">Jestem <span></span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ipsum perferendis quod distinctio non hic a sequi, id necessitatibus voluptates facilis quam! Magnam reiciendis harum explicabo saepe laborum. Eius, quae? </p>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/jacobekq" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/jaqb00" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/jacobekq_" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/j_wesoly_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <a href="#" class="button">Napisz do mnie</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
