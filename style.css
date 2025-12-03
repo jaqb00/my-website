@@ -232,7 +232,6 @@ span{
 
     .social-icons a{
         padding-block: 0.5rem;
-        padding-inline: 1rem;
     }
 }
 
@@ -258,5 +257,11 @@ span{
 
     main{
         padding-inline: 1rem;
+    }
+}
+
+@media(max-width: 240px){
+    .main-container{
+        width: 100%;
     }
 }
