@@ -199,7 +199,7 @@ span{
         padding-top: 3rem;
         backdrop-filter: blur(4px);
         gap: 2rem;
-        transition: 1s;
+        transition: 1s ease-in-out;
     }
 
     nav a{
