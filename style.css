@@ -248,3 +248,14 @@ span{
         display: flex;
     }
 }
+
+@media(max-width: 330px){
+    header{
+        gap: 1rem;
+        padding-inline: 1rem;
+    }
+
+    main{
+        padding-inline: 1rem;
+    }
+}
