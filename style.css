@@ -199,7 +199,6 @@ span{
         padding-top: 3rem;
         backdrop-filter: blur(4px);
         gap: 2rem;
-        transition: 0.3s ease;
         transition: 0.3s;
     }
 
