@@ -115,6 +115,10 @@ span{
     }
 }
 
+.main-container{
+    padding-bottom: 1rem;
+}
+
 .main-container p{
     padding-bottom: 1rem;
     font-size: 1.2rem;
