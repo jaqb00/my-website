@@ -32,7 +32,7 @@ nav{
     display: none;
 }
 
-.close-menu{
+.close_menu{
     display: none;
 }
 
@@ -71,14 +71,19 @@ nav .home{
 main{
     display: flex;
     padding-inline: 10rem;
-    padding-block: 4rem;
+    padding-top: 4rem;
     align-items: center;
     gap: 20px;
+
 }
 
 .main-img img{
     border-radius: 50%;
     width: 28vw;
+}
+
+.main-container{
+    height: 100%;
 }
 
 .main-container h1{
@@ -113,10 +118,6 @@ span{
     76%, 100%{
         content: "Muzykiem";
     }
-}
-
-.main-container{
-    padding-bottom: 1rem;
 }
 
 .main-container p{
@@ -155,6 +156,9 @@ span{
     transition: 0.3s ease;
     font-weight: 600;
     cursor: pointer;
+    text-align: center;
+    display: block;
+    width: 10rem;
 }
 
 .button:hover{
@@ -179,11 +183,13 @@ span{
         min-height: 1px;
     }
 
+    
+
     .menu{
         display: block;
     }
 
-    .close-menu{
+    .close_menu{
         display: none;
     }
 
@@ -228,10 +234,6 @@ span{
     
     .typing-text{
         padding-bottom: 1rem;
-    }
-
-    .social-icons a{
-        padding-block: 0.5rem;
     }
 }
 
