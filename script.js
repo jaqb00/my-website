@@ -6,3 +6,4 @@ function menu(){
 function close_menu(){
     document.querySelector('nav').style.display = "none";
 }
+
